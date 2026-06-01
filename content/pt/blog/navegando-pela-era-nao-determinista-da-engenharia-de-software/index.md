@@ -5,19 +5,24 @@ authors: ["sconetto"]
 summary: "Liderar equipes de engenharia em períodos de transformação tecnológica acelerada exige separar inovação sustentável de hype passageiro."
 tags: ["engenharia de software", "IA", "liderança técnica", "revisão de código", "dívida técnica"]
 categories: ["Engenharia"]
+translationKey: non-deterministic-era-software-engineering
 ---
 
 Liderar equipes de engenharia em períodos de transformação tecnológica acelerada exige separar inovação sustentável de hype passageiro. Ao longo da última década gerenciando projetos de software e escalando operações técnicas, vi nossas ferramentas evoluírem significativamente. Hoje, porém, o foco exagerado da indústria na *velocidade* da geração de código por IA está mascarando um desafio arquitetural muito mais profundo.
 
 O problema central que enfrentamos como indústria não é o quão rápido um LLM consegue gerar um novo aplicativo Flutter ou refatorar um serviço Python; é como gerenciamos e mantemos a imprevisibilidade inerente introduzida por essas ferramentas.
 
-Recentemente, Martin Fowler participou de uma entrevista no podcast *The Pragmatic Engineer*, e suas observações articulam perfeitamente a crise silenciosa que acontece nos ciclos modernos de desenvolvimento. Fowler propõe que a ascensão da IA na engenharia de software é a mudança mais disruptiva desde que nossa indústria fez a transição de assembly para linguagens de alto nível. Mas a verdadeira natureza dessa transformação é amplamente mal compreendida.
+Recentemente, Martin Fowler participou de uma entrevista no podcast *The Pragmatic Engineer*, assista aqui:
+
+{{< youtube CQmI4XKTa0U >}}
+
+As observações de Fowler articulam perfeitamente a crise silenciosa que acontece nos ciclos modernos de desenvolvimento. Ele propõe que a ascensão da IA na engenharia de software é a mudança mais disruptiva desde que nossa indústria fez a transição de assembly para linguagens de alto nível. Mas a verdadeira natureza dessa transformação é amplamente mal compreendida.
 
 ## A Mudança: Do Determinismo ao Não-Determinismo
 
 Durante toda a história do desenvolvimento de software moderno, nossos fluxos de trabalho dependeram do determinismo. Sabemos como um compilador se comportará, entendemos as regras estritas de sintaxe e podemos prever os limites do hardware.
 
-A introdução dos LLMs muda isso completamente. Agora estamos integrando ativamente sistemas não-deterministas em nossos pipelines diários de engenharia. Fowler destaca como isso se manifesta perigosamente no que está sendo chamado de "vibe coding" — a prática de pedir algo a uma IA, receber um grande bloco de código e publicá-lo simplesmente porque parece funcionar na primeira tentativa, sem revisar profundamente a lógica subjacente.
+A introdução dos LLMs muda isso completamente. Agora estamos integrando ativamente sistemas não-deterministas em nossos pipelines diários de engenharia. Fowler destaca como isso se manifesta perigosamente no que está sendo chamado de "vibe coding", a prática de pedir algo a uma IA, receber um grande bloco de código e publicá-lo simplesmente porque parece funcionar na primeira tentativa, sem revisar profundamente a lógica subjacente.
 
 Nos cenários acelerados de desenvolvimento de hoje, essa prática está destruindo uma parte crítica da nossa cultura de engenharia: o **ciclo de aprendizado**. Quando desenvolvedores ignoram a revisão rigorosa de código e confiam exclusivamente em saídas geradas, eles param de aprender como estruturar, escalar e depurar sistemas complexos. Corremos o risco de construir software frágil em formato de caixa-preta, onde o único método de solução de problemas é descartar o módulo e gerá-lo novamente.
 
