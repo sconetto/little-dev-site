@@ -21,7 +21,7 @@ hugoblox:
       twitter: ""
       links:
         - icon: brands/whatsapp
-          url: https://wa.me/5561998072086
+          url: https://wa.me/5561920033989
         - icon: brands/github
           url: https://github.com/sconetto
         - icon: brands/linkedin
@@ -128,7 +128,7 @@ hugoblox:
       coordinates:
         latitude: null
         longitude: null
-      phone: "+5561998072086"
+      phone: "+5561920033989"
     ai:
       allow:
         - /

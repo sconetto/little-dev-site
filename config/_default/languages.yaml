@@ -79,7 +79,7 @@ pt:
         weight: 40
       - parent: Conecte-se
         name: WhatsApp
-        url: https://wa.me/5561998072086
+        url: https://wa.me/5561920033989
         weight: 10
       - parent: Conecte-se
         name: GitHub
@@ -172,7 +172,7 @@ en:
         weight: 40
       - parent: Connect
         name: WhatsApp
-        url: https://wa.me/5561998072086
+        url: https://wa.me/5561920033989
         weight: 10
       - parent: Connect
         name: GitHub

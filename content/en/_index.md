@@ -178,7 +178,7 @@ sections:
             Have a project in mind?<br/>We would love to hear about it.
             <br/><br/>
             <b>Email:</b> <a href="mailto:contact@littledevelopment.tech"><i>contact@littledevelopment.tech</i></a></br>
-            <b>WhatsApp</b> <a href="https://wa.me/5561998072086" target="_blank"><i>+55 (61) 99807-2086</i></a></br>
+            <b>WhatsApp</b> <a href="https://wa.me/5561920033989" target="_blank"><i>+55 (61) 92003-3989</i></a></br>
             <br/>
             Send us a message and we will get back to you within 24 hours.
           feature_icon: check
@@ -188,7 +188,7 @@ sections:
             - "Personalized service"
           button:
             text: Contact us on WhatsApp
-            url: https://wa.me/5561998072086
+            url: https://wa.me/5561920033989
 
   - block: cta-card
     content:
