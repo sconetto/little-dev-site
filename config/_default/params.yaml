@@ -82,7 +82,7 @@ hugoblox:
     show_title: false
     title: "LD Tech"
     align: center
-    search: false
+    search: true
     theme_toggle: true
     theme_picker: false
     language_switcher: true
@@ -155,7 +155,7 @@ hugoblox:
   # Site search
   # ────────────────────────────────────────────────────────────────────────────
   search:
-    enable: false
+    enable: true
     suggestions: []
     quick_actions: []
 
