@@ -40,15 +40,15 @@ sections:
       items:
         - statistic: "4+"
           description: |
-            Países  
+            Países
             atendidos
         - statistic: "2+"
           description: |
-            Anos de  
+            Anos de
             mercado
         - statistic: "10+"
           description: |
-            Anos de experiência  
+            Anos de experiência
             da equipe
         - statistic: "100%"
           description: |
