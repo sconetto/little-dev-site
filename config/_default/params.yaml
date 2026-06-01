@@ -1,0 +1,264 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# HUGO BLOX CONFIGURATION
+# Schema: hugoblox.com/schema/v2
+# Tutorial: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
+# ══════════════════════════════════════════════════════════════════════════════
+hugoblox:
+  schema: "2.0"
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # IDENTITY
+  # Site-level branding (for people/profiles, use the author system in content/authors/)
+  # ────────────────────────────────────────────────────────────────────────────
+  identity:
+    name: "Little Development"
+    organization: "LD Tecnologia LTDA"
+    type: organization
+    tagline: "Concentre-se em você, deixe os pequenos desenvolvimentos conosco!"
+    description: "Little Development oferece soluções em tecnologia   e consultoria para ajudar sua empresa a crescer."
+    social:
+      twitter: ""
+      links:
+        - icon: brands/whatsapp
+          url: https://wa.me/5561998072086
+        - icon: brands/github
+          url: https://github.com/sconetto
+        - icon: brands/linkedin
+          url: https://linkedin.com/in/sconetto
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # THEME
+  # Color and visual design system
+  # ────────────────────────────────────────────────────────────────────────────
+  theme:
+    mode: system
+    pack: "default"
+    colors:
+      primary: "#005efd"
+      secondary: "#23abbe"
+      neutral: ""
+    colors_light:
+      primary: "#2563eb"
+      secondary: "#1d9aaf"
+    colors_dark:
+      primary: "#005efd"
+      secondary: "#23abbe"
+    surfaces:
+      background: ""
+      foreground: ""
+      header:
+        background: ""
+        foreground: ""
+      footer:
+        background: ""
+        foreground: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # TYPOGRAPHY
+  # Font and text sizing
+  # ────────────────────────────────────────────────────────────────────────────
+  typography:
+    pack: "developer"
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # LAYOUT
+  # Spacing and shape tokens
+  # ────────────────────────────────────────────────────────────────────────────
+  layout:
+    radius: "md"
+    spacing: "spacious"
+    avatar_shape: circle
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # HEADER
+  # Site header and navigation bar
+  # ────────────────────────────────────────────────────────────────────────────
+  header:
+    enable: true
+    block: navbar-simple
+    sticky: true
+    show_logo: true
+    show_title: false
+    title: "LD Tech"
+    align: center
+    search: false
+    theme_toggle: true
+    theme_picker: false
+    language_switcher: true
+    cta:
+      enable: true
+      text: "Contact Us"
+      url: "/#contact"
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # FOOTER
+  # Site footer
+  # ────────────────────────────────────────────────────────────────────────────
+  footer:
+    style: columns
+    show_logo: true
+    show_title: true
+    show_tagline: false
+    title: "Little Development Tecnologia"
+    language_switcher: true
+    show_social: true
+    text: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # COPYRIGHT
+  # Legal notices and licensing
+  # ────────────────────────────────────────────────────────────────────────────
+  copyright:
+    notice: "© {year} LD Tecnologia LTDA."
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # SEO
+  # Search engine optimization - overrides and technical settings
+  # ────────────────────────────────────────────────────────────────────────────
+  seo:
+    title: "Little Development"
+    location:
+      address:
+        street: ""
+        city: ""
+        region: ""
+        postal_code: ""
+        country: "BR"
+      coordinates:
+        latitude: null
+        longitude: null
+      phone: "+5561998072086"
+    ai:
+      allow:
+        - /
+      disallow: []
+      note: "Little Development company website."
+      contact: "contact@littledevelopment.tech"
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # CONTENT
+  # Content rendering and behavior
+  # ────────────────────────────────────────────────────────────────────────────
+  content:
+    math:
+      enable: false
+    toc:
+      enable: true
+    reading_time:
+      enable: true
+    citations:
+      style: apa
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # SEARCH
+  # Site search
+  # ────────────────────────────────────────────────────────────────────────────
+  search:
+    enable: false
+    suggestions: []
+    quick_actions: []
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # COMMENTS
+  # User comments system
+  # ────────────────────────────────────────────────────────────────────────────
+  comments:
+    enable: false
+    provider: ""
+    giscus:
+      repo: ""
+      repo_id: ""
+      category: ""
+      category_id: ""
+    disqus:
+      shortname: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # ANALYTICS
+  # Traffic and behavior analytics
+  # ────────────────────────────────────────────────────────────────────────────
+  analytics:
+    google:
+      measurement_id: ""
+    google_tag_manager:
+      container_id: ""
+    plausible:
+      domain: ""
+    fathom:
+      site_id: ""
+    pirsch:
+      site_id: ""
+    clarity:
+      project_id: ""
+    baidu:
+      site_id: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # VERIFICATION
+  # Search engine site verification codes
+  # ────────────────────────────────────────────────────────────────────────────
+  verification:
+    google: ""
+    bing: ""
+    baidu: ""
+    yandex: ""
+    pinterest: ""
+    naver: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # REPOSITORY
+  # Source code repository for "Edit this page" links
+  # ────────────────────────────────────────────────────────────────────────────
+  repository:
+    enable: false
+    url: ""
+    branch: main
+    content_dir: content
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # LOCALE
+  # Regional formatting preferences
+  # ────────────────────────────────────────────────────────────────────────────
+  locale:
+    date_format: "2 Jan 2006"
+    time_format: "15:04"
+    address_format: pt-br
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # SECURITY
+  # Security headers and policies (requires Netlify integration)
+  # ────────────────────────────────────────────────────────────────────────────
+  security:
+    csp:
+      policy: ""
+      report_only: false
+    frame_options: allow
+    permissions_policy: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # PRIVACY
+  # Privacy and compliance features
+  # ────────────────────────────────────────────────────────────────────────────
+  privacy:
+    enable: false
+    anonymize_analytics: true
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # DEBUG
+  # Development and debugging (hidden in production)
+  # ────────────────────────────────────────────────────────────────────────────
+  debug:
+    enable: false
+    hud:
+      position: bottom-left
+      opacity: 1.0
+    export_logs: true
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # PRO
+  # Premium features and creator program (affiliates)
+  # ────────────────────────────────────────────────────────────────────────────
+  pro:
+    hide_attribution: false
+    affiliate_code: ""

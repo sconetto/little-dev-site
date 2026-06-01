@@ -1,0 +1,188 @@
+# Languages
+# Documentation: https://docs.hugoblox.com/reference/language/
+
+pt:
+  locale: pt-br
+  contentDir: content/pt
+  title: "Little Development"
+  params:
+    displayName: "🇧🇷 Português (Brasil)"
+    description: "Little Development Tecnologia e Consultoria"
+  menu:
+    main:
+      - name: Início
+        url: /#top
+        weight: 10
+      - name: Serviços
+        url: /#services
+        weight: 20
+      - name: Sobre
+        url: /#about
+        weight: 30
+      - name: FAQ
+        url: /#faq
+        weight: 40
+      - name: Contato
+        url: /#contact
+        weight: 45
+      - name: Blog
+        url: /blog/
+        weight: 50
+    footer:
+      - name: Serviços
+        weight: 10
+      - parent: Serviços
+        name: Desenvolvimento Web
+        url: /#services
+        weight: 10
+      - parent: Serviços
+        name: Aplicativos Mobile
+        url: /#services
+        weight: 20
+      - parent: Serviços
+        name: Consultoria em TI
+        url: /#services
+        weight: 30
+      - parent: Serviços
+        name: Cloud & DevOps
+        url: /#services
+        weight: 40
+      - name: Empresa
+        weight: 20
+      - parent: Empresa
+        name: Sobre Nós
+        url: /#about
+        weight: 10
+      - parent: Empresa
+        name: Blog
+        url: /blog/
+        weight: 20
+      - parent: Empresa
+        name: FAQ
+        url: /#faq
+        weight: 30
+      - parent: Empresa
+        name: Contato
+        url: /#contact
+        weight: 40
+      - name: Recursos
+        weight: 30
+      - parent: Recursos
+        name: Privacidade
+        url: /privacy/
+        weight: 10
+      - parent: Recursos
+        name: Termos de Uso
+        url: /terms/
+        weight: 20
+      - name: Conecte-se
+        weight: 40
+      - parent: Conecte-se
+        name: WhatsApp
+        url: https://wa.me/5561998072086
+        weight: 10
+      - parent: Conecte-se
+        name: GitHub
+        url: https://github.com/sconetto
+        weight: 20
+      - parent: Conecte-se
+        name: LinkedIn
+        url: https://linkedin.com/in/sconetto
+        weight: 30
+      - parent: Conecte-se
+        name: Email
+        url: mailto:contact@littledevelopment.tech
+        weight: 40
+
+en:
+  locale: en-us
+  contentDir: content/en
+  title: "Little Development"
+  params:
+    displayName: "🇺🇸 English (US)"
+    description: "Little Development Technology and Consultancy"
+  menu:
+    main:
+      - name: Home
+        url: /#top
+        weight: 10
+      - name: Services
+        url: /#services
+        weight: 20
+      - name: About
+        url: /#about
+        weight: 30
+      - name: FAQ
+        url: /#faq
+        weight: 40
+      - name: Contact
+        url: /#contact
+        weight: 45
+      - name: Blog
+        url: /en/blog/
+        weight: 50
+    footer:
+      - name: Services
+        weight: 10
+      - parent: Services
+        name: Web Development
+        url: /#services
+        weight: 10
+      - parent: Services
+        name: Mobile Apps
+        url: /#services
+        weight: 20
+      - parent: Services
+        name: IT Consulting
+        url: /#services
+        weight: 30
+      - parent: Services
+        name: Cloud & DevOps
+        url: /#services
+        weight: 40
+      - name: Company
+        weight: 20
+      - parent: Company
+        name: About Us
+        url: /#about
+        weight: 10
+      - parent: Company
+        name: Blog
+        url: /en/blog/
+        weight: 20
+      - parent: Company
+        name: FAQ
+        url: /#faq
+        weight: 30
+      - parent: Company
+        name: Contact
+        url: /#contact
+        weight: 40
+      - name: Resources
+        weight: 30
+      - parent: Resources
+        name: Privacy
+        url: /en/privacy/
+        weight: 10
+      - parent: Resources
+        name: Terms
+        url: /en/terms/
+        weight: 20
+      - name: Connect
+        weight: 40
+      - parent: Connect
+        name: WhatsApp
+        url: https://wa.me/5561998072086
+        weight: 10
+      - parent: Connect
+        name: GitHub
+        url: https://github.com/sconetto
+        weight: 20
+      - parent: Connect
+        name: LinkedIn
+        url: https://linkedin.com/in/sconetto
+        weight: 30
+      - parent: Connect
+        name: Email
+        url: mailto:contact@littledevelopment.tech
+        weight: 40
