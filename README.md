@@ -13,7 +13,7 @@ Built with [Hugo](https://gohugo.io/) and the [HugoBlox](https://hugoblox.com/) 
 ## Prerequisites
 
 - [Git](https://git-scm.com/)
-- [Go](https://go.dev/dl/) 1.19+ (required by Hugo Modules)
+- [Go](https://go.dev/dl/) 1.26+ (required by Hugo Modules)
 - [asdf](https://asdf-vm.com/) — version manager (installed via [Homebrew](https://brew.sh/) on macOS)
   - macOS: `brew install asdf`
 - [Hugo](https://gohugo.io/installation/) (extended edition) — **pinned to v0.162.0 via asdf** (see [.tool-versions](.tool-versions))
@@ -184,4 +184,4 @@ Connect your git repository to the hosting provider for automatic deployments.
 
 ## License
 
-All rights reserved — Little Development Ltda.
+GNU General Public License v3.0 — see [LICENSE](LICENSE) for details.
