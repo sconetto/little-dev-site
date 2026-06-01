@@ -1,0 +1,17 @@
+name:
+  display: "João P. Sconetto"
+  first: "João Pedro"
+  last: "Sconetto"
+title: "Founder & Lead Developer"
+role: "Founder & Lead Developer"
+organization: "Little Development"
+bio: "Desenvolvedor full-stack apaixonado por tecnologia. Fundador da Little Development Tecnologia, onde transformo ideias em soluções digitais."
+email: "contact@littledevelopment.tech"
+social:
+  - icon: brands/whatsapp
+    url: https://wa.me/5561998072086
+  - icon: brands/github
+    url: https://github.com/sconetto
+  - icon: brands/linkedin
+    url: https://linkedin.com/in/sconetto
+avatar: profile.jpg
