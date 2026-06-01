@@ -1,0 +1,19 @@
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add spacing between footer logo and brand title */
+.footer-logo {
+  margin-bottom: 0.5rem;
+}
+
+/* Widen hero content for longer motto (Portuguese in particular) */
+/* The outer content container defaults to max-w-3xl (48rem) */
+#section-hero .mx-auto.max-w-3xl {
+  max-width: 72rem;
+}
+/* The text paragraph itself defaults to max-w-2xl (42rem) — the real bottleneck */
+#section-hero p.max-w-2xl {
+  max-width: 64rem;
+}
